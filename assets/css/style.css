@@ -37,7 +37,7 @@ body {
   transition: 0.4s;
 }
 
-.off {
+.mati {
   position: absolute;
   content: "";
   height: 2em;
@@ -48,7 +48,7 @@ body {
   opacity: 1;
 }
 
-.on {
+.hidup {
   position: absolute;
   content: "";
   height: 2em;
@@ -67,11 +67,11 @@ body {
   box-shadow: 0 0 1px #ccc;
 }
 
-.mengalihkan input:checked ~ .off {
+.mengalihkan input:checked ~ .mati {
   transform: translateX(2em);
 }
 
-.mengalihkan input:checked ~ .on {
+.mengalihkan input:checked ~ .hidup {
   transform: translateX(2em);
   opacity: 1;
 }
